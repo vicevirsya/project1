@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel="stylesheet" href="formstylesheet.css" type="text/css" media="all" />
+</head>
+<body>
+<h2>Contact Me</h2>
+<a href="index.html">Back</a>
+  
+  <form class="form" action="contactform.php" method="POST">
+    
+    <div class="form-group">
+      <input type="text" name="name" id="name" placeholder="Enter your name" >
+      <label for="name">Name</label>
+    </div>
+    
+    <p class="form-group">
+      <input type="text" name="email" id="email" placeholder="mail@example.com" >
+      <label for="email">Email</label>
+    </p>
+    
+    <p class="form-group">
+      <input type="text" name="contact" id="contact" placeholder="contact no." >
+      <label for="contact">Phone number</label>
+    </p>    
+  
+    <p class="form-group">
+      <textarea name="text" placeholder="Write something to us" ></textarea>
+      <label for="text">Comments</label>
+    </p>
+    
+    <p class="btn">
+      <input type="submit" name="submit" value="Send" >
+    </p>
+  </form>
+</body>
+</html>

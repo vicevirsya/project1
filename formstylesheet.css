@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+/*I think its everything BUT the form*/
+* { 
+    font-family: 'Roboto', sans-serif; 
+}
+
+/*Definitely the form*/
+h2, p{
+    font-family: 'Poppins';
+}
+
+/*Placeholder font*/
+.form-group, :placeholder-shown{
+    font-family: 'Titillium Web';
+
+}
+
+/*background color*/
+body {
+    background-color: #192a56;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+/*style for the white background of the whole form*/
+.form{
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position: absolute;;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3; 
+    
+} 
+
+/*The box of the border for each input*/
+.form-group{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+/*form label style*/
+.form-group label, textarea {
+    display: block;
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/*comments placeholder*/
+textarea{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*the insert area for the form*/
+.form-group input,.form-group textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+/*placeholder for everything but the comment section*/
+ .btn, input{
+    font-style: 'Roboto', sans-serif;
+    padding: 7px 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-color: #333;
+    border-radius: 13px; 
+}
+
+/*hovering to the "send" button*/
+input:hover{
+    cursor: pointer;
+}
+
+/*Back button*/
+a{
+    justify-content: left;
+    font-size: 18px;
+    color: black;
+}
